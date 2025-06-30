@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="30d98ed3-4a46-4a81-9bce-914440bf4dce" name="Changes" comment="Version inicial">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/practica/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/practica/config/JwtDecoderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/practica/config/JwtSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/practica/config/OidcSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/practica/config/SamlSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/practica/controller/JwtController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/practica/controller/OidcController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/practica/controller/SamlController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/practica/service/JwtService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/practica/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/saml/entra-id-saml.cer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/saml/idp-metadata.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Respaldos/demo-library" beforeDir="false" afterPath="$PROJECT_DIR$/../Respaldos/demo-library" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Respaldos/spring-boot-starter-safe-commons" beforeDir="false" afterPath="$PROJECT_DIR$/../Respaldos/spring-boot-starter-safe-commons" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-segunixoran-servicesv4-8-net" beforeDir="false" afterPath="$PROJECT_DIR$/../app-segunixoran-servicesv4-8-net" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ays-msa-sp-bpm-employee-data" beforeDir="false" afterPath="$PROJECT_DIR$/../ays-msa-sp-bpm-employee-data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bbe-msa-bs-query-order" beforeDir="false" afterPath="$PROJECT_DIR$/../bbe-msa-bs-query-order" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csm-msa-bs-async-transaction-reconciliation" beforeDir="false" afterPath="$PROJECT_DIR$/../csm-msa-bs-async-transaction-reconciliation" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../csm-msa-sp-payment-collection" beforeDir="false" afterPath="$PROJECT_DIR$/../csm-msa-sp-payment-collection" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../idt-msa-dm-logincentral" beforeDir="false" afterPath="$PROJECT_DIR$/../idt-msa-dm-logincentral" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ws_app-wsconexionLDAP-java_was" beforeDir="false" afterPath="$PROJECT_DIR$/../ws_app-wsconexionLDAP-java_was" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="entra-id-saml2-spring-boot-poc" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="entra-id-saml2-spring-boot-poc" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="entra-id-saml2-spring-boot-poc" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;bsmingam1995&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/bsmingam1995/entra-id-saml2-spring-boot-poc.git",
+    "accountId": "b679775f-0cb5-4fdd-b645-676ccbfdfa20"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2xZSPYWq412DgZtP8GWCGxFo8QH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build Practica.executor": "Run",
+    "Gradle.Build entra-id-saml2-spring-boot-poc.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.Practica [:org.practica.Application.main()].executor": "Debug",
+    "Gradle.Practica [buildDependents].executor": "Run",
+    "Gradle.Practica [build].executor": "Run",
+    "Gradle.Practica [clean build].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.Application.executor": "Debug",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/bmingame/Documents/BP/Backend/entra-id-saml2-spring-boot-poc",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/galbujas/IdeaProjects/Practica/src/main/java/org/practica/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bmingame\Documents\BP\Backend\entra-id-saml2-spring-boot-poc" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bmingame\Documents\BP\Backend\entra-id-saml2-spring-boot-poc\src\main\resources\saml" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle buildDependents" />
+      <command value="gradle build" />
+      <command value="gradle clean build" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.practica.Application" />
+      <module name="Practica.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.practica.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practica [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildDependents" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Practica [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Practica [clean build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="entra-id-saml2-spring-boot-poc.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.practica.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Practica [build]" />
+        <item itemvalue="Gradle.Practica [clean build]" />
+        <item itemvalue="Application.Application" />
+        <item itemvalue="Gradle.Practica [buildDependents]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30d98ed3-4a46-4a81-9bce-914440bf4dce" name="Changes" comment="" />
+      <created>1748144089996</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748144089996</updated>
+      <workItem from="1750802814280" duration="1758000" />
+      <workItem from="1750804646610" duration="2421000" />
+      <workItem from="1750807415163" duration="503000" />
+      <workItem from="1750861929240" duration="1007000" />
+      <workItem from="1750864430650" duration="9573000" />
+      <workItem from="1750970874703" duration="652000" />
+      <workItem from="1750977019292" duration="676000" />
+      <workItem from="1751062689361" duration="62000" />
+      <workItem from="1751312972865" duration="434000" />
+    </task>
+    <task id="LOCAL-00001" summary="Version inicial">
+      <option name="closed" value="true" />
+      <created>1750863384992</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1750863384992</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Version inicial">
+      <option name="closed" value="true" />
+      <created>1751313255716</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1751313255716</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Version inicial" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version inicial" />
+  </component>
+</project>
