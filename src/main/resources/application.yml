@@ -1,0 +1,29 @@
+spring:
+  security:
+    saml2:
+      relyingparty:
+        registration:
+          ssocircle:
+            identityprovider:
+              metadata-uri: classpath:saml/idp-metadata.xml
+            singlelogout:
+              url: http://localhost:8080/saml/logout
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: TU_CLIENT_ID
+            client-secret: TU_CLIENT_SECRET
+            scope: openid, profile, email
+            redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
+            authorization-grant-type: authorization_code
+            client-name: Google
+        provider:
+          google:
+            authorization-uri: https://accounts.google.com/o/oauth2/v2/auth
+            token-uri: https://oauth2.googleapis.com/token
+            user-info-uri: https://openidconnect.googleapis.com/v1/userinfo
+            user-name-attribute: sub
+
+jwt:
+  secret: mi_clave_super_secreta_123456
