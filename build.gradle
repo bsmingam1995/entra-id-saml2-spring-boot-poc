@@ -13,6 +13,10 @@ java {
     }
 }
 
+springBoot {
+    mainClass = 'org.practica.Application'
+}
+
 configurations {
     compileOnly {
         extendsFrom annotationProcessor
@@ -32,7 +36,7 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-oauth2-resource-server'
 
 
-    implementation'com.google.guava:guava:32.1.2-jre'
+    implementation 'com.google.guava:guava:32.1.2-jre'
     implementation 'org.bouncycastle:bcprov-jdk18on:1.78'
 
     implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
