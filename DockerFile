@@ -1,20 +1,23 @@
-
-COPY .mvn/ .mvn/
-COPY mvnw .
-COPY pom.xml .
-
-RUN chmod +x mvnw && ./mvnw -B -q dependency:go-offline
-
+FROM eclipse-temurin:17-jdk AS build
+WORKDIR /app
+ 
+COPY gradle/ gradle/
+COPY gradlew .
+COPY build.gradle .
+COPY settings.gradle .
+ 
+RUN chmod +x gradlew && ./gradlew build --no-daemon
+ 
 COPY src ./src
-RUN ./mvnw -B -q package -DskipTests # genera target/miapp.war
-
+RUN ./gradlew build -x test --no-daemon # genera build/libs/miapp.jar
+ 
 FROM eclipse-temurin:17-jre
 WORKDIR /app
-
+ 
 ENV JAVA_TOOL_OPTIONS="-XX:+UseContainerSupport -XX:MaxRAMPercentage=75.0"
-
-COPY --from=build /app/target/*.war app.war
-
+ 
+COPY --from=build /app/build/libs/*.jar app.jar
+ 
 EXPOSE 8080
-
-CMD ["java","-jar","app.war"]
+ 
+CMD ["java","-jar","app.jar"]
