@@ -23,7 +23,7 @@ public class SamlSecurityConfig {
                 .fromMetadataLocation("classpath:saml/idp-metadata.xml")
                 .registrationId("entra-id")
                 .entityId("https://samltoolkit.azurewebsites.net")
-                .assertionConsumerServiceLocation("http://localhost:8080/login/saml2/sso/ssocircle")
+                .assertionConsumerServiceLocation("https://entra-id-saml2-spring-boot-poc.onrender.com/login/saml2/sso/ssocircle")
                 .build();
 
         return new InMemoryRelyingPartyRegistrationRepository(registration);
